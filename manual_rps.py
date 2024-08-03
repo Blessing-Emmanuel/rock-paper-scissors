@@ -11,19 +11,19 @@ def get_user_choice():
     return user_option
 
 def get_winner(computer_choice, user_choice):
-    if computer_choice.lower() == user_choice.lower():
+    if computer_choice.lower() == user_choice.lower(): # done
         print("It's a tie!")
-    elif computer_choice.lower() == 'rock' and user_choice.lower() == 'paper':
+    elif computer_choice.lower() == 'rock' and user_choice.lower() == 'paper': # done
         print("You won")
-    elif computer_choice.lower() == 'rock' and user_choice.lower() == 'scissors':
+    elif computer_choice.lower() == 'rock' and user_choice.lower() == 'scissors': # done
         print("You've lost")
-    elif computer_choice.lower() == 'paper' and user_choice.lower() == 'rock':
+    elif computer_choice.lower() == 'paper' and user_choice.lower() == 'rock': # done
         print("You've lost")
-    elif computer_choice.lower() == 'paper' and user_choice.lower() == 'scissors':
+    elif computer_choice.lower() == 'paper' and user_choice.lower() == 'scissors': # done
         print("You won")
-    elif computer_choice.lower() == 'scissors' and user_choice.lower() == 'rock':
+    elif computer_choice.lower() == 'scissors' and user_choice.lower() == 'rock': # done
         print("You won")
-    elif computer_choice.lower() == 'scissors' and user_choice.lower() == 'paper':
+    elif computer_choice.lower() == 'scissors' and user_choice.lower() == 'paper': # done
         print("You've lost")
     else:
         print("Invalid option. It's between rock, paper or scissors.")
